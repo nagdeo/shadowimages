@@ -1,7 +1,7 @@
 function shadowimages(options){
     let imgs= document.querySelectorAll("shadow");
     if(options.shadow_type==="hard"){
-        options.shadow_type='0px';
+        options.shadow_type='10px';
     }else{ 
          options.shadow_type='0px';
      }

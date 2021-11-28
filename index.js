@@ -1,5 +1,6 @@
-function shadowimages(options){
-    let imgs= document.querySelectorAll("shadow");
+function shadowimagesv2(options){
+    let imgs= document.querySelectorAll(".shadowimagesv2");
+ 
     if(options.shadow_type==="hard"){
         options.shadow_type='10px';
     }else{ 
@@ -7,10 +8,11 @@ function shadowimages(options){
      }
 
      imgs.forEach(img => {
-        img.style.boxShadow=`10px 10px ${options.shadow_type} 1px rgba(0,0,0,0,12)`;
+        img.style.boxShadow =`10px 10px ${options.shadow_type} 1px rgba(0,0,0,0.12)`;
         if(options.padding){
             img.style.padding="10px";
         }
+       
      });
 }
-module.exports.shadowimages=shadowimages;
+module.exports.shadowimagesv2=shadowimagesv2;

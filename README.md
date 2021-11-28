@@ -4,14 +4,14 @@ Get perfect shadows every time for the non-designer.
 
 # Installation
 
- npm i shadowimages --save
+ npm i shadowimagesv2 --save
 
 Then...
 
 ...
-import { shadowimages } from 'shadowImages';
+import { shadowimagesv2 } from 'shadowimagesv2';
 
-shadowimages({
+shadowimagesv2({
     shadow_type: 'soft',
     padding: false
 });
